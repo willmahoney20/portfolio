@@ -11,6 +11,7 @@ export default () => {
             onMouseEnter={() => setMajorHover(true)}
             onMouseLeave={() => setMajorHover(false)}
         >
+            <h4>Education</h4>
             <EducationCard
                 school='University of Leeds'
                 course='Mathematics'

@@ -11,6 +11,7 @@ export default () => {
             onMouseEnter={() => setMajorHover(true)}
             onMouseLeave={() => setMajorHover(false)}
         >
+            <h4>Experience</h4>
             <ExperienceCard
                 link='https://matchbetr.com'
                 alt='matchBetr site'
