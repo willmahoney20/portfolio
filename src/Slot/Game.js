@@ -193,10 +193,15 @@ export default () => {
     const [paytable, setPaytable] = useState(false)
     const [info, setInfo] = useState(false)
     const [spinning, setSpinning] = useState(false)
+    const [screenError, setScreenError] = useState(false)
+    const [dataLoaded, setDataLoaded] = useState(false)
 
 	useEffect(() => {
 		document.title = 'South Park Game'		
 		window.history.replaceState(null, "South Park Game", '/projects/south-park-game')
+
+        if(window.innerWidth < 992) setScreenError(true)
+        setDataLoaded(true)
 	}, [])
 
     useEffect(() => {
@@ -267,6 +272,12 @@ export default () => {
         <div className='slot-shell'>
             <img src={Background} alt='slot background image' />
             
+            {dataLoaded && screenError ? (
+            <div className='slot-error'>
+                <h3>Not Accessible</h3>
+                <p>Sorry, this game is not currently available on mobile devices.</p>
+            </div>
+            ) : dataLoaded ? (
             <div className='slot-container'>
                 <div>
                     {paytable && <Paytable />}
@@ -446,6 +457,7 @@ export default () => {
                     </div>
                 </div>
             </div>
+            ) : null}
         </div>
     )
 }
