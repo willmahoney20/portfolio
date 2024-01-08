@@ -13,7 +13,7 @@ export default () => {
         >
             <h4>Experience</h4>
             <ExperienceCard
-                link='https://matchbetr.com'
+                link='https://www.matchbetr.com'
                 alt='matchBetr site'
                 title='matchBetr'
                 subtitle='Full-Stack Matched Betting Platform' 
@@ -25,7 +25,7 @@ export default () => {
             />
 
             <ExperienceCard
-                link='https://matchbetr.com/forums'
+                link='https://www.matchbetr.com/forums'
                 alt='matchBetr Forums'
                 title='Community Forums'
                 subtitle='Full-Stack Forums'
@@ -37,7 +37,7 @@ export default () => {
             />
 
             <ExperienceCard
-                link='https://matchbetr.com/'
+                link='https://www.matchbetr.com/'
                 alt='matchBetr Oddsmatching page'
                 title='Oddsmatching Tool'
                 subtitle='Betting Odds Comparison Software'

@@ -3,7 +3,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons'
 
 export default ({ link, alt, title, subtitle, content, skills, hover, updateHover, majorHover }) => {
     return (
-        <a href={link} alt={alt}>
+        <a href={link} alt={alt} target='_blank'>
             <div
                 className={
                     hover === title ? 'experience-section-active' : 
