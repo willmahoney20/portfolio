@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import '../Stylesheets/MouseEffect.css'
+import '../../Stylesheets/Home/MouseEffect.css'
 
 export default () => {
     const [position, setPosition] = useState({ x: 0, y: 0 })

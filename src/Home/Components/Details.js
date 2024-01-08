@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../Stylesheets/Details.css'
+import '../../Stylesheets/Home/Details.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
@@ -45,12 +45,20 @@ export default ({ active }) => {
                         <h6 className={active === 1 || sectionHover === 'Experience' ? 'details-link-h6ac' : null}>Experience</h6>
                     </div>
                     <div
-                        onMouseEnter={() => setSectionHover('Education')}
+                        onMouseEnter={() => setSectionHover('Projects')}
                         onMouseLeave={() => setSectionHover('')}
                         onClick={() => handleScroll(2)}
                     >
-                        <span className={active === 2 || sectionHover === 'Education' ? 'details-link-spanac' : null}></span>
-                        <h6 className={active === 2 || sectionHover === 'Education' ? 'details-link-h6ac' : null}>Education</h6>
+                        <span className={active === 2 || sectionHover === 'Projects' ? 'details-link-spanac' : null}></span>
+                        <h6 className={active === 2 || sectionHover === 'Projects' ? 'details-link-h6ac' : null}>Projects</h6>
+                    </div>
+                    <div
+                        onMouseEnter={() => setSectionHover('Education')}
+                        onMouseLeave={() => setSectionHover('')}
+                        onClick={() => handleScroll(3)}
+                    >
+                        <span className={active === 3 || sectionHover === 'Education' ? 'details-link-spanac' : null}></span>
+                        <h6 className={active === 3 || sectionHover === 'Education' ? 'details-link-h6ac' : null}>Education</h6>
                     </div>
                 </div>
             </div>

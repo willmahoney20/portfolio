@@ -57,6 +57,12 @@
     margin-bottom: 0;
 }
 
+.experience-container > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.experience-container > a > div,
 .experience-container > div {
     display: flex;
     flex-direction: column;

@@ -37,7 +37,7 @@ export default () => {
             />
 
             <ExperienceCard
-                link='https://matchbetr.com/oddsmatching'
+                link='https://matchbetr.com/'
                 alt='matchBetr Oddsmatching page'
                 title='Oddsmatching Tool'
                 subtitle='Betting Odds Comparison Software'

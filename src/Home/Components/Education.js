@@ -29,8 +29,7 @@ export default () => {
                 content="My A Levels were the most enjoyable portion of my education, I loved working on challenging problems in my maths classes. The social side of sixth form was great, and I was apart of the football team, that got to the county final."
                 grades={[
                     {subject: 'Maths', grade: 'A*'},
-                    {subject: 'Further Maths', grade: 'A'},
-                    {subject: 'Chemistry', grade: 'D'},
+                    {subject: 'Further Maths', grade: 'A'}
                 ]}
                 hover={sectionHover}
                 updateHover={value => setSectionHover(value)}

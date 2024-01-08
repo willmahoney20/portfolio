@@ -13,6 +13,11 @@
 }
 
 .site-shell {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.home-shell {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +25,7 @@
     min-height: 100vh;
 }
 
-.site-container {
+.home-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -28,13 +33,13 @@
 }
 
 @media (min-width: 768px) {
-    .site-container {
+    .home-container {
         padding: 60px 30px;
     }
 }
 
 @media (min-width: 992px) {
-    .site-container {
+    .home-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -44,7 +49,7 @@
 }
 
 @media (min-width: 1200px) {
-    .site-container {
+    .home-container {
         padding: 0;
     }
 }
