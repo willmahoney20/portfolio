@@ -23,6 +23,18 @@ export default () => {
                 updateHover={value => setSectionHover(value)}
                 majorHover={majorHover}
             />
+
+            <ExperienceCard
+                link='https://www.matchbetr.com/#oddsmatcher'
+                alt='matchBetr Oddsmatching page'
+                title='Oddsmatcher'
+                subtitle='Betting Odds Comparison Software'
+                content="This betting tool combines multiple sports betting APIs to find the most profitable bets for matched bettors. This software combines and compares data from thousands of sporting events, on over 20 different betting sites every minute."
+                skills={['JavaScript', 'Node', 'Express', 'MongoDB', 'Matchbook API', 'Sports Betting API']}
+                hover={sectionHover}
+                updateHover={value => setSectionHover(value)}
+                majorHover={majorHover}
+            />
         </div>
     )
 }

@@ -66,12 +66,11 @@ export default ({ active }) => {
                 <div className='details-socials'>
                     <a href='mailto:will.mahoney3@gmail.com' alt='Will Mahoney Email'>
                         <FontAwesomeIcon icon={faEnvelope} className='details-social-icon' />
-                        <p>will.mahoney3@gmail.com</p>
                     </a>
-                    {/* <a href='https://github.com/willmahoney20' alt='Will Mahoney GitHub Profile' target='_blank'>
+                    <a href='https://github.com/willmahoney20' alt='Will Mahoney GitHub Profile' target='_blank'>
                         <FontAwesomeIcon icon={faGithub} className='details-social-icon' />
                     </a>
-                    <a href='https://www.linkedin.com/in/will-mahoney-a1356529b/' alt='Will Mahoney LinkedIn Profile' target='_blank'>
+                    {/* <a href='https://www.linkedin.com/in/will-mahoney-a1356529b/' alt='Will Mahoney LinkedIn Profile' target='_blank'>
                         <FontAwesomeIcon icon={faLinkedin} className='details-social-icon' />
                     </a> */}
                     {/* <a href='https://twitter.com/WillMahoney741' alt='Will Mahoney X.com Profile' target='_blank'>

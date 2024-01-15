@@ -1,8 +1,9 @@
+import React, { lazy } from 'react'
 import '../../Stylesheets/Home/Sections.css'
 import About from './About'
 import Experience from './Experience'
-import Education from './Education'
-import Projects from './Projects'
+const Projects = lazy(() => import ('./Projects'))
+const Education = lazy(() => import ('./Education'))
 
 export default () => {
     return (

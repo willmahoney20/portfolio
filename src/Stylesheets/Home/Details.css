@@ -83,6 +83,9 @@
 }
 
 .details-socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 5px 0 !important;
 }
 
@@ -91,7 +94,7 @@
     flex-direction: row;
     align-items: center;
     text-decoration: none;
-    /* margin-right: 25px; */
+    margin-right: 20px;
 }
 
 .details-socials p {
