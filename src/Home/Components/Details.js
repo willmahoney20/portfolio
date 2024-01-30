@@ -36,7 +36,7 @@ export default ({ active }) => {
                 <div className='details-title'>
                     <h1>Will Mahoney</h1>
                     <h3>Junior Software Developer</h3>
-                    <h5>Hey, I'm Will, a {calculateAge('2001-03-12')}-year-old full-stack developer from the United Kingdom. I'm mostly driven by a love for problme-solving through code, and I enjoy bringing a holistic approach to full-stack development.</h5>
+                    <h5>Hey, I'm Will, a {calculateAge('2001-03-12')}-year-old full-stack developer from the United Kingdom. I'm mostly driven by a love for problem-solving through code, and I enjoy bringing a holistic approach to full-stack development.</h5>
                 </div>
                 <div className='details-links'>
                     <div
