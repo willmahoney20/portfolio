@@ -7,6 +7,8 @@ export default () => {
     const [activeDiv, setActiveDiv] = useState(0)
 
     useEffect(() => {
+		document.title = 'Will Mahoney'
+
         const handleScroll = () => {
             const divs = document.querySelectorAll('.sections-container > div')
     

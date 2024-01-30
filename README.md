@@ -7,7 +7,7 @@
   <h1 style="margin-top: 10px">Will Mahoney</h1>
 
   <!-- Subtitle -->
-  <p>v1 of willmahoney.co, built using React, and hosted with DigitalOcean. Design inspired BrittanyChiang.com.</p>
+  <p>v1 of willmahoney.co, built using React, and hosted with DigitalOcean. Design inspired by BrittanyChiang.com.</p>
 </div>
 
 <!-- Main Content -->

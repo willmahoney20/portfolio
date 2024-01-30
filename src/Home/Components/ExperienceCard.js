@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
 
-export default ({ link, alt, title, subtitle, content, skills, hover, updateHover, majorHover }) => {
+export default ({ link, alt, dates, title, subtitle, content, skills, hover, updateHover, majorHover }) => {
     return (
         <a href={link} alt={alt} target='_blank'>
             <div
@@ -13,10 +13,15 @@ export default ({ link, alt, title, subtitle, content, skills, hover, updateHove
                 onMouseEnter={() => updateHover(title)}
                 onMouseLeave={() => updateHover('')}
             >
-                <div className='experience-section-title'>
-                    <h4>{title}</h4>
-                    <FontAwesomeIcon icon={faCircle} className='experience-secion-dot' />
-                    <h4>{subtitle}</h4>
+                <div className='experience-section-title experience-section-col'>
+                    <div>
+                        <h4>{title}</h4>
+                        <FontAwesomeIcon icon={faCircle} className='experience-secion-dot' />
+                        <h4>{subtitle}</h4>
+                    </div>
+                    <div>
+                        <h6>{dates}</h6>
+                    </div>
                 </div>
                 <div className='experience-section-details'>
                     <p>{content}</p>
