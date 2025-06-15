@@ -13,17 +13,21 @@
 <!-- Main Content -->
 
 <!-- Image -->
-![Alt text](./src/images/site.png)
+
+![Alt text](./src/images/new-site.png)
 
 ## About
 
 <!-- Text Paragraph -->
+
 My portfolio tells you about my journey as a developer so far, and how you can get in touch with me. Thank you for taking a look.
 
 <!-- Grid for Color Scheme -->
+
 ### Color Scheme
+
 | Color Name | Hex Code |
-|------------|----------|
+| ---------- | -------- |
 | Green      | #57CC99  |
 | Dark Green | #1B4332  |
 | White      | #FFFFFF  |
