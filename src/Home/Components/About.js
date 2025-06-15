@@ -1,12 +1,24 @@
 export default () => {
-    return (
-        <div className='about-container'>
-            <h4>About</h4>
-            <p>My coding journey began in 2020. Like most new programmers, it started out on <a href='https://www.freecodecamp.org/' alt='freeCodeCamp site' target='_blank'>freeCodeCamp</a>, where I learnt the basics of programming in HTML, CSS, and JavaScript.</p>
+  return (
+    <div className="about-container">
+      <h4>About</h4>
+      <p>
+        As a full stack software engineer with a passion for mathematics, I
+        approach full stack development with a strong focus on problem-solving
+        and building scalable, user-focused applications.
+      </p>
 
-            <p>Eventually, after a few months of completing online courses and following YouTube tutorials, I had enough knowledge to start building my first major coding project, <a href='https://www.matchbetr.com' alt='matchBetr site' target='_blank'>matchBetr.com</a>.</p>
+      <p>
+        My love for problem-solving has been a constant in my life, initially
+        expressed through mathematics. However, as I delved into coding, I found
+        a more practical and enjoyable outlet for this passion, allowing me to
+        apply my problem-solving skills in a dynamic and rewarding manner.
+      </p>
 
-            <p>Nowadays, most of my time is spent working on coding projects, but I also enjoy spending time playing football, reading, going to the gym, watching movies and hanging out with my family and friends.</p>
-        </div>
-    )
-}
+      <p>
+        I’m experienced across the full SDLC, from scalable infrastructure,
+        backend APIs, to responsive frontends.
+      </p>
+    </div>
+  );
+};
